@@ -1,0 +1,41 @@
+.create-dialog {
+  width: 328px;
+  height: 530px !important;
+  border-radius: 6px;
+}
+
+.clone-dialog .next-dialog-header,
+.create-dialog .next-dialog-header {
+  color: #222222;
+  font-size: 20px;
+  font-weight: 500;
+  padding: 0;
+  height: 52px;
+  line-height: 52px;
+  text-align: center;
+  background: #FAFAFA;
+}
+
+.clone-dialog .next-dialog-body,
+.create-dialog .next-dialog-body {
+  .tips {background: #FFF1E8;font-size: 14px;color: #FFA033;margin-bottom: 12px;}
+  .next-form-item .next-form-item-label {font-size: 16px;color: #222222;margin-bottom: 12px;}
+  .next-form-item .next-input-medium {height: 34px;}
+  .next-form-item .next-input-multiple {border: 1px solid #E6E7EB;border-radius: 4px;}
+  .next-form-item .next-input-multiple textarea {height: 94px;}
+  .next-form-item:last-child {margin-bottom: 0;}
+  .next-select {width: 100%;}
+
+  .next-form-item-control .project-list {cursor: pointer;border: 1px solid #C4C6CF;border-radius: 4px;max-height: 200px;overflow-y: auto;}
+  .next-form-item-control .project-list .item {color: #333940;font-size: 14px;padding: 12px;}
+  .next-form-item-control .project-list .item.selected,
+  .next-form-item-control .project-list .item:hover {color: #FF4062;background: rgba(255, 64, 98, 0.1)}
+}
+
+
+.clone-dialog .next-dialog-footer,
+.create-dialog .next-dialog-footer {
+  .action-wrapper button {display: block;margin: auto;}
+  .action-wrapper .next-btn-primary {width: 286px;margin-bottom: 16px;}
+  .action-wrapper .next-btn-medium.next-btn-loading {padding-left: 16px;}
+}

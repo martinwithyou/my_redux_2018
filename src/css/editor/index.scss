@@ -1,0 +1,59 @@
+@import './fonts';
+
+.ubanner-editor {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background: #666;
+}
+
+.next-overlay-wrapper.opened .editor-next-overlay {
+  border: 1px solid #4B4B4B;
+  background: #333333;
+  box-shadow: 0 5px 8px 0 rgba(51, 57, 64, 0.2);
+  .next-menu-item .next-menu-item-inner {color: rgba(255,255,255,0.5);text-align: center;}
+  .next-menu-item.next-selected,
+  .next-menu-item:hover {color: #ff4062;background-color: rgba(255,64,98,.2);}
+}
+
+.ubanner-editor .editor-header {
+  position: relative;
+  width: 100%;
+  height: 60px;
+  background: #333;
+  box-shadow: 0 1px 0 0 rgba(0, 0, 0, 1);
+  .controls {clear: both;overflow: hidden;}
+  .controls .item {
+    min-width: 120px;
+    height: 40px;
+    margin: 10px 0;
+    display: inline-block;
+    line-height: 40px;
+    text-align: center;
+    color: rgba(255,255,255,0.5);
+    font-size: 12px;
+    border-right: 1px solid #222;
+    cursor: pointer;
+    &:last-child, &:nth-child(4) {border-right: none};
+    &:hover {color: #FF4062; .mark.other {border-color: #FF4062;background-color: rgba(255,64,98,.2)}};
+    .mark {display: block;width: 24px;height: 24px;line-height: 23px;margin: auto};
+    .mark.other {border: 1px solid rgba(255,255,255,0.5);border-radius: 4px;background: rgba(255, 255,255, 0.1)};
+    .label {font-size: 12px;margin-top: 5px};
+  }
+  .controls .item.undo,
+  .controls .item.restore {min-width: 22px;.iconfont {font-size: 22px}}
+  .controls .item.undo {border-right: none;margin-left: 32px};
+  .controls .item.restore {padding-left: 44px;padding-right: 32px};
+  .controls .item.action {float: right;border-left: 1px solid #222;.next-btn {width: 88px;height: 32px}};
+}
+
+
+.ubanner-editor .editor-content {
+  position: relative;
+  top: 1px;
+  width: 100%;
+  height: calc(100% - 61px);
+  clear: both;
+  overflow: hidden;
+}
+

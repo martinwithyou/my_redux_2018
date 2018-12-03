@@ -1,0 +1,233 @@
+.ubanner-cssload {
+  position: fixed;
+  display: none;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 99999;
+  background:rgba(30,36,47,0.6);
+  .cssload-container {
+    position:absolute;
+    top: 45%;
+    left:45%;
+  }
+  .square {
+    position:relative;
+    top:-10px;
+
+    float:left;
+
+    width:15px;
+    height:15px;
+    margin-top:5px;
+    margin-right:5px;
+
+    -webkit-animation:enter 2.7s infinite;
+       -moz-animation:enter 2.7s infinite;
+        -ms-animation:enter 2.7s infinite;
+         -o-animation:enter 2.7s infinite;
+            animation:enter 2.7s infinite;
+
+    opacity:0;
+    background:rgb(243,70,84);
+  }
+  .enter {
+    top:0;
+
+    opacity:1;
+  }
+  .square:nth-child(1) {
+    -webkit-animation-delay:0.81s;
+       -moz-animation-delay:0.81s;
+        -ms-animation-delay:0.81s;
+         -o-animation-delay:0.81s;
+            animation-delay:0.81s;
+  }
+  .square:nth-child(2) {
+    -webkit-animation-delay:0.945s;
+       -moz-animation-delay:0.945s;
+        -ms-animation-delay:0.945s;
+         -o-animation-delay:0.945s;
+            animation-delay:0.945s;
+  }
+  .square:nth-child(3) {
+    -webkit-animation-delay:1.08s;
+       -moz-animation-delay:1.08s;
+        -ms-animation-delay:1.08s;
+         -o-animation-delay:1.08s;
+            animation-delay:1.08s;
+
+    background:rgb(253,201,111);
+  }
+  .square:nth-child(4) {
+    -webkit-animation-delay:0.405s;
+       -moz-animation-delay:0.405s;
+        -ms-animation-delay:0.405s;
+         -o-animation-delay:0.405s;
+            animation-delay:0.405s;
+            animation-delay:0.405s;
+  }
+  .square:nth-child(5) {
+    -webkit-animation-delay:0.54s;
+       -moz-animation-delay:0.54s;
+        -ms-animation-delay:0.54s;
+         -o-animation-delay:0.54s;
+            animation-delay:0.54s;
+            animation-delay:0.54s;
+  }
+  .square:nth-child(6) {
+    -webkit-animation-delay:0.675s;
+       -moz-animation-delay:0.675s;
+        -ms-animation-delay:0.675s;
+         -o-animation-delay:0.675s;
+            animation-delay:0.675s;
+            animation-delay:0.675s;
+  }
+  .square:nth-child(8) {
+    -webkit-animation-delay:0.135s;
+       -moz-animation-delay:0.135s;
+        -ms-animation-delay:0.135s;
+         -o-animation-delay:0.135s;
+            animation-delay:0.135s;
+            animation-delay:0.135s;
+  }
+  .square:nth-child(9) {
+    -webkit-animation-delay:0.27s;
+       -moz-animation-delay:0.27s;
+        -ms-animation-delay:0.27s;
+         -o-animation-delay:0.27s;
+            animation-delay:0.27s;
+            animation-delay:0.27s;
+  }
+  .clear {
+    clear:both;
+  }
+  .last {
+    margin-right:0;
+  }
+  @keyframes enter {
+    0% {
+      top:-10px;
+
+      opacity:0;
+    }
+    5% {
+      top:0;
+
+      opacity:1;
+    }
+    50.9% {
+      top:0;
+
+      opacity:1;
+    }
+    55.9% {
+      top:10px;
+
+      opacity:0;
+    }
+  }
+  @-o-keyframes enter {
+    0% {
+      top:-10px;
+
+      opacity:0;
+    }
+    5% {
+      top:0;
+
+      opacity:1;
+    }
+    50.9% {
+      top:0;
+
+      opacity:1;
+    }
+    55.9% {
+      top:10px;
+
+      opacity:0;
+    }
+  }
+  @-ms-keyframes enter {
+    0% {
+      top:-10px;
+
+      opacity:0;
+    }
+    5% {
+      top:0;
+
+      opacity:1;
+    }
+    50.9% {
+      top:0;
+
+      opacity:1;
+    }
+    55.9% {
+      top:10px;
+
+      opacity:0;
+    }
+  }
+  @-webkit-keyframes enter {
+    0% {
+      top:-10px;
+
+      opacity:0;
+    }
+    5% {
+      top:0;
+
+      opacity:1;
+    }
+    50.9% {
+      top:0;
+
+      opacity:1;
+    }
+    55.9% {
+      top:10px;
+
+      opacity:0;
+    }
+  }
+  @-moz-keyframes enter {
+    0% {
+      top:-10px;
+
+      opacity:0;
+    }
+    5% {
+      top:0;
+
+      opacity:1;
+    }
+    50.9% {
+      top:0;
+
+      opacity:1;
+    }
+    55.9% {
+      top:10px;
+
+      opacity:0;
+    }
+  }
+
+  .cssload-label {
+    position: absolute;
+    font-size: 14px;
+    color: #fff;
+    width: 190px;
+    text-align: center;
+    top: 82px;
+    left: -65px;
+  }
+}
+
+.ubanner-cssload.visible {
+  display: block;
+}

@@ -1,0 +1,31 @@
+.setting-dialog {
+  width: 468px;
+  height: 560px !important;
+  border-radius: 6px;
+}
+
+.setting-dialog .next-dialog-header {
+  color: #222222;
+  font-size: 20px;
+  font-weight: 500;
+  padding: 0;
+  height: 52px;
+  line-height: 52px;
+  text-align: center;
+  background: #FAFAFA;
+}
+
+.setting-dialog .next-dialog-body {
+  .next-form-item .next-form-item-label {font-size: 16px;color: #222222;margin-bottom: 12px;}
+  .next-form-item .next-input-medium {height: 34px;}
+  .next-form-item .next-input-multiple {border: 1px solid #E6E7EB;border-radius: 4px;}
+  .next-form-item .next-input-multiple textarea {height: 94px;}
+  .next-form-item .control-wrapper {height: 192px;border: 1px solid #C4C6CF;border-radius: 4px;}
+  .next-form-item .next-btn-warning {width: 138px;height: 40px;margin-top: 20px;margin-bottom: 8px;}
+  .next-form-item .next-btn-warning i {margin-right: 5px;}
+  .next-form-item .warning-label {font-size: 12px;color: #FF3333;}
+}
+
+.setting-dialog .next-dialog-footer {
+  .next-btn-secondary {margin-left: 24px;}
+}

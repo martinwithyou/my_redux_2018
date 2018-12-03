@@ -1,0 +1,62 @@
+.multisize-dialog {
+  width: 630px;
+  height: 520px !important;
+  border-radius: 6px;
+}
+
+.multisize-dialog .next-dialog-header {
+  color: #222222;
+  font-size: 20px;
+  font-weight: 500;
+  padding: 0;
+  height: 52px;
+  line-height: 52px;
+  text-align: center;
+  background: #FAFAFA;
+}
+
+
+.multisize-dialog .next-dialog-body {
+  overflow: hidden;
+  clear: both;
+  .before-choose,
+  .after-choice {
+    width: 280px;
+    height: 370px;
+    float: right;
+    display: inline-block;
+    .title {color: #222222;font-size: 16px;}
+    .title.other {margin-top: 21px}
+  }
+  .before-choose {
+    float: left;
+    .options {margin-top: 12px;}
+    .options .next-select {width: 130px;}
+    .options .next-select:last-child {margin-left: 20px;}
+    .before-list {height: 270px;padding: 10px;margin-top: 12px;overflow: scroll;border:1px solid #C4C6CF;border-radius: 4px}
+  }
+  .after-choice {
+    margin-left: 30px;
+    .after-list {height: 350px;padding: 10px;margin-top: 12px;overflow: scroll;border: 1px solid #C4C6CF;border-radius: 4px;}
+  }
+
+  .biz-wrap .biz-label {color: #999;font-size: 14px}
+  .biz-wrap ul {margin: 12px;cursor: pointer;}
+  .biz-wrap ul li {
+    color: #333940;
+    font-size: 14px;
+    padding: 6px;
+    .next-icon {color: transparent;float: right;}
+  }
+  .biz-wrap ul li:hover {
+    background: rgba(255, 64, 98, 0.1);
+    color: #FF4062;
+    font-size: 16px;
+    .next-icon {color: #FF4062}
+  }
+}
+
+.multisize-dialog .next-dialog-footer {
+  .action-wrapper button {width: 80px;height: 32px;}
+  .action-wrapper .next-btn-primary {margin-right: 24px;}
+}

@@ -1,0 +1,777 @@
+/* allura */
+@font-face {
+    font-family: 'Allura Regular';
+    src: url('//ubanner.alicdn.com/fonts/Allura/allura-regular-webfont.woff2') format('woff2'),
+         url('//ubanner.alicdn.com/fonts/Allura/allura-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+/* eb garamond */
+@font-face {
+    font-family: 'EB Garamond Regular';
+    src: url('//ubanner.alicdn.com/fonts/EB_Garamond/ebgaramond-regular-webfont.woff2') format('woff2'),
+         url('//ubanner.alicdn.com/fonts/EB_Garamond/ebgaramond-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+/* graduate  */
+@font-face {
+    font-family: 'Graduate Regular';
+    src: url('//ubanner.alicdn.com/fonts/Graduate/graduate-regular-webfont.woff2') format('woff2'),
+         url('//ubanner.alicdn.com/fonts/Graduate/graduate-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+/* lato */
+@font-face {
+    font-family: 'Lato Hairline';
+    src: url('//ubanner.alicdn.com/fonts/Lato/lato-hairline-webfont.woff2') format('woff2'),
+         url('//ubanner.alicdn.com/fonts/Lato/lato-hairline-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Lato Hairline Italic';
+    src: url('//ubanner.alicdn.com/fonts/Lato/lato-hairlineitalic-webfont.woff2') format('woff2'),
+         url('//ubanner.alicdn.com/fonts/Lato/lato-hairlineitalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Lato Italic';
+    src: url('//ubanner.alicdn.com/fonts/Lato/lato-italic-webfont.woff2') format('woff2'),
+         url('//ubanner.alicdn.com/fonts/Lato/lato-italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Lato Light';
+    src: url('//ubanner.alicdn.com/fonts/Lato/lato-light-webfont.woff2') format('woff2'),
+         url('//ubanner.alicdn.com/fonts/Lato/lato-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Lato Black';
+    src: url('//ubanner.alicdn.com/fonts/Lato/lato-black-webfont.woff2') format('woff2'),
+         url('//ubanner.alicdn.com/fonts/Lato/lato-black-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Lato Black Italic';
+    src: url('//ubanner.alicdn.com/fonts/Lato/lato-blackitalic-webfont.woff2') format('woff2'),
+         url('//ubanner.alicdn.com/fonts/Lato/lato-blackitalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Lato Bold';
+    src: url('//ubanner.alicdn.com/fonts/Lato/lato-bold-webfont.woff2') format('woff2'),
+         url('//ubanner.alicdn.com/fonts/Lato/lato-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Lato Bold Italic';
+    src: url('//ubanner.alicdn.com/fonts/Lato/lato-bolditalic-webfont.woff2') format('woff2'),
+         url('//ubanner.alicdn.com/fonts/Lato/lato-bolditalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Lato Light Italic';
+    src: url('//ubanner.alicdn.com/fonts/Lato/lato-lightitalic-webfont.woff2') format('woff2'),
+         url('//ubanner.alicdn.com/fonts/Lato/lato-lightitalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Lato Regular';
+    src: url('//ubanner.alicdn.com/fonts/Lato/lato-regular-webfont.woff2') format('woff2'),
+         url('//ubanner.alicdn.com/fonts/Lato/lato-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+/* LOBSTER */
+
+@font-face {
+    font-family: 'Lobster Regular';
+    src: url('//ubanner.alicdn.com/fonts/Lobster/lobster-regular-webfont.woff2') format('woff2'),
+         url('//ubanner.alicdn.com/fonts/Lobster/lobster-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+/* lora */
+
+@font-face {
+    font-family: 'Lora Bold';
+    src: url('//ubanner.alicdn.com/fonts/Lora/lora-bold-webfont.woff2') format('woff2'),
+         url('//ubanner.alicdn.com/fonts/Lora/lora-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+/* Open Sans */
+
+@font-face {
+    font-family: 'Open Sans Bold';
+    src: url('//ubanner.alicdn.com/fonts/Open_Sans/opensans-bold-webfont.eot');
+    src: url('//ubanner.alicdn.com/fonts/Open_Sans/opensans-bold-webfont.eot?#iefix') format('embedded-opentype'),
+    url('//ubanner.alicdn.com/fonts/Open_Sans/opensans-bold-webfont.woff2') format('woff2'),
+    url('//ubanner.alicdn.com/fonts/Open_Sans/opensans-bold-webfont.woff') format('woff'),
+    url('//ubanner.alicdn.com/fonts/Open_Sans/opensans-bold-webfont.ttf') format('truetype'),
+    url('//ubanner.alicdn.com/fonts/Open_Sans/opensans-bold-webfont.svg#open_sansbold') format('svg');
+    font-style: normal;
+    font-weight: 400;
+}
+
+
+
+
+@font-face {
+    font-family: 'Open Sans Italic';
+    src: url('//ubanner.alicdn.com/fonts/Open_Sans/opensans-italic-webfont.eot');
+    src: url('//ubanner.alicdn.com/fonts/Open_Sans/opensans-italic-webfont.eot?#iefix') format('embedded-opentype'),
+    url('//ubanner.alicdn.com/fonts/Open_Sans/opensans-italic-webfont.woff2') format('woff2'),
+    url('//ubanner.alicdn.com/fonts/Open_Sans/opensans-italic-webfont.woff') format('woff'),
+    url('//ubanner.alicdn.com/fonts/Open_Sans/opensans-italic-webfont.ttf') format('truetype'),
+    url('//ubanner.alicdn.com/fonts/Open_Sans/opensans-italic-webfont.svg#open_sansitalic') format('svg');
+    font-weight: 400;
+    font-size: normal;
+}
+
+
+
+
+@font-face {
+    font-family: 'Open Sans Light';
+    src: url('//ubanner.alicdn.com/fonts/Open_Sans/opensans-light-webfont.eot');
+    src: url('//ubanner.alicdn.com/fonts/Open_Sans/opensans-light-webfont.eot?#iefix') format('embedded-opentype'),
+    url('//ubanner.alicdn.com/fonts/Open_Sans/opensans-light-webfont.woff2') format('woff2'),
+    url('//ubanner.alicdn.com/fonts/Open_Sans/opensans-light-webfont.woff') format('woff'),
+    url('//ubanner.alicdn.com/fonts/Open_Sans/opensans-light-webfont.ttf') format('truetype'),
+    url('//ubanner.alicdn.com/fonts/Open_Sans/opensans-light-webfont.svg#open_sanslight') format('svg');
+    font-style: normal;
+    font-weight: 400;
+}
+
+
+
+
+@font-face {
+    font-family: 'Open Sans Bold Italic';
+    src: url('//ubanner.alicdn.com/fonts/Open_Sans/opensans-bolditalic-webfont.eot');
+    src: url('//ubanner.alicdn.com/fonts/Open_Sans/opensans-bolditalic-webfont.eot?#iefix') format('embedded-opentype'),
+    url('//ubanner.alicdn.com/fonts/Open_Sans/opensans-bolditalic-webfont.woff2') format('woff2'),
+    url('//ubanner.alicdn.com/fonts/Open_Sans/opensans-bolditalic-webfont.woff') format('woff'),
+    url('//ubanner.alicdn.com/fonts/Open_Sans/opensans-bolditalic-webfont.ttf') format('truetype'),
+    url('//ubanner.alicdn.com/fonts/Open_Sans/opensans-bolditalic-webfont.svg#open_sansbold_italic') format('svg');
+    font-style: normal;
+    font-weight: 400;
+}
+
+
+
+
+@font-face {
+    font-family: 'Open Sans SemiBold Italic';
+    src: url('//ubanner.alicdn.com/fonts/Open_Sans/opensans-semibolditalic-webfont.eot');
+    src: url('//ubanner.alicdn.com/fonts/Open_Sans/opensans-semibolditalic-webfont.eot?#iefix') format('embedded-opentype'),
+    url('//ubanner.alicdn.com/fonts/Open_Sans/opensans-semibolditalic-webfont.woff2') format('woff2'),
+    url('//ubanner.alicdn.com/fonts/Open_Sans/opensans-semibolditalic-webfont.woff') format('woff'),
+    url('//ubanner.alicdn.com/fonts/Open_Sans/opensans-semibolditalic-webfont.ttf') format('truetype'),
+    url('//ubanner.alicdn.com/fonts/Open_Sans/opensans-semibolditalic-webfont.svg#open_sanssemibold_italic') format('svg');
+    font-style: normal;
+    font-weight: 400;
+}
+
+
+
+
+@font-face {
+    font-family: 'Open Sans SemiBold';
+    src: url('//ubanner.alicdn.com/fonts/Open_Sans/opensans-semibold-webfont.eot');
+    src: url('//ubanner.alicdn.com/fonts/Open_Sans/opensans-semibold-webfont.eot?#iefix') format('embedded-opentype'),
+    url('//ubanner.alicdn.com/fonts/Open_Sans/opensans-semibold-webfont.woff2') format('woff2'),
+    url('//ubanner.alicdn.com/fonts/Open_Sans/opensans-semibold-webfont.woff') format('woff'),
+    url('//ubanner.alicdn.com/fonts/Open_Sans/opensans-semibold-webfont.ttf') format('truetype'),
+    url('//ubanner.alicdn.com/fonts/Open_Sans/opensans-semibold-webfont.svg#open_sanssemibold') format('svg');
+    font-style: normal;
+    font-weight: 400;
+}
+
+
+
+
+@font-face {
+    font-family: 'Open Sans Light Italic';
+    src: url('//ubanner.alicdn.com/fonts/Open_Sans/opensans-lightitalic-webfont.eot');
+    src: url('//ubanner.alicdn.com/fonts/Open_Sans/opensans-lightitalic-webfont.eot?#iefix') format('embedded-opentype'),
+    url('//ubanner.alicdn.com/fonts/Open_Sans/opensans-lightitalic-webfont.woff2') format('woff2'),
+    url('//ubanner.alicdn.com/fonts/Open_Sans/opensans-lightitalic-webfont.woff') format('woff'),
+    url('//ubanner.alicdn.com/fonts/Open_Sans/opensans-lightitalic-webfont.ttf') format('truetype'),
+    url('//ubanner.alicdn.com/fonts/Open_Sans/opensans-lightitalic-webfont.svg#open_sanslight_italic') format('svg');
+    font-style: normal;
+    font-weight: 400;
+}
+
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('//ubanner.alicdn.com/fonts/Open_Sans/opensans-regular-webfont.eot');
+    src: url('//ubanner.alicdn.com/fonts/Open_Sans/opensans-regular-webfont.eot?#iefix') format('embedded-opentype'),
+    url('//ubanner.alicdn.com/fonts/Open_Sans/opensans-regular-webfont.woff2') format('woff2'),
+    url('//ubanner.alicdn.com/fonts/Open_Sans/opensans-regular-webfont.woff') format('woff'),
+    url('//ubanner.alicdn.com/fonts/Open_Sans/opensans-regular-webfont.ttf') format('truetype'),
+    url('//ubanner.alicdn.com/fonts/Open_Sans/opensans-regular-webfont.svg#open_sansregular') format('svg');
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'Open Sans ExtraBold';
+    src: url('//ubanner.alicdn.com/fonts/Open_Sans/opensans-extrabold-webfont.eot');
+    src: url('//ubanner.alicdn.com/fonts/Open_Sans/opensans-extrabold-webfont.eot?#iefix') format('embedded-opentype'),
+    url('//ubanner.alicdn.com/fonts/Open_Sans/opensans-extrabold-webfont.woff2') format('woff2'),
+    url('//ubanner.alicdn.com/fonts/Open_Sans/opensans-extrabold-webfont.woff') format('woff'),
+    url('//ubanner.alicdn.com/fonts/Open_Sans/opensans-extrabold-webfont.ttf') format('truetype'),
+    url('//ubanner.alicdn.com/fonts/Open_Sans/opensans-extrabold-webfont.svg#open_sansextrabold') format('svg');
+    font-style: normal;
+    font-weight: 400;
+}
+
+
+@font-face {
+    font-family: 'Open Sans ExtraBold Italic';
+    src: url('//ubanner.alicdn.com/fonts/Open_Sans/opensans-extrabolditalic-webfont.eot');
+    src: url('//ubanner.alicdn.com/fonts/Open_Sans/opensans-extrabolditalic-webfont.eot?#iefix') format('embedded-opentype'),
+    url('//ubanner.alicdn.com/fonts/Open_Sans/opensans-extrabolditalic-webfont.woff2') format('woff2'),
+    url('//ubanner.alicdn.com/fonts/Open_Sans/opensans-extrabolditalic-webfont.woff') format('woff'),
+    url('//ubanner.alicdn.com/fonts/Open_Sans/opensans-extrabolditalic-webfont.ttf') format('truetype'),
+    url('//ubanner.alicdn.com/fonts/Open_Sans/opensans-extrabolditalic-webfont.svg#open_sansextrabold_italic') format('svg');
+    font-style: normal;
+    font-weight: 400;
+}
+
+
+
+/* Oswald */
+
+@font-face {
+    font-family: 'Oswald Bold';
+    src: url('//ubanner.alicdn.com/fonts/Oswald/oswald-bold-webfont.eot');
+    src: url('//ubanner.alicdn.com/fonts/Oswald/oswald-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('//ubanner.alicdn.com/fonts/Oswald/oswald-bold-webfont.woff2') format('woff2'),
+         url('//ubanner.alicdn.com/fonts/Oswald/oswald-bold-webfont.woff') format('woff'),
+         url('//ubanner.alicdn.com/fonts/Oswald/oswald-bold-webfont.ttf') format('truetype'),
+         url('//ubanner.alicdn.com/fonts/Oswald/oswald-bold-webfont.svg#oswaldbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'Oswald Light';
+    src: url('//ubanner.alicdn.com/fonts/Oswald/oswald-light-webfont.eot');
+    src: url('//ubanner.alicdn.com/fonts/Oswald/oswald-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('//ubanner.alicdn.com/fonts/Oswald/oswald-light-webfont.woff2') format('woff2'),
+         url('//ubanner.alicdn.com/fonts/Oswald/oswald-light-webfont.woff') format('woff'),
+         url('//ubanner.alicdn.com/fonts/Oswald/oswald-light-webfont.ttf') format('truetype'),
+         url('//ubanner.alicdn.com/fonts/Oswald/oswald-light-webfont.svg#oswaldlight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'Oswald Regular';
+    src: url('//ubanner.alicdn.com/fonts/Oswald/oswald-regular-webfont.eot');
+    src: url('//ubanner.alicdn.com/fonts/Oswald/oswald-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('//ubanner.alicdn.com/fonts/Oswald/oswald-regular-webfont.woff2') format('woff2'),
+         url('//ubanner.alicdn.com/fonts/Oswald/oswald-regular-webfont.woff') format('woff'),
+         url('//ubanner.alicdn.com/fonts/Oswald/oswald-regular-webfont.ttf') format('truetype'),
+         url('//ubanner.alicdn.com/fonts/Oswald/oswald-regular-webfont.svg#oswaldregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+
+/* Raleway */
+
+@font-face {
+    font-family: 'Raleway Black';
+    src: url('//ubanner.alicdn.com/fonts/Raleway/Raleway-Black.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Raleway Bold';
+    src: url('//ubanner.alicdn.com/fonts/Raleway/Raleway-Bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Raleway Bold Italic';
+    src: url('//ubanner.alicdn.com/fonts/Raleway/Raleway-BoldItalic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'Raleway ExtraBold';
+    src: url('//ubanner.alicdn.com/fonts/Raleway/Raleway-ExtraBold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Raleway ExtraLight';
+    src: url('//ubanner.alicdn.com/fonts/Raleway/Raleway-ExtraLight.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'Raleway Light';
+    src: url('//ubanner.alicdn.com/fonts/Raleway/Raleway-Light.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'Raleway Medium';
+    src: url('//ubanner.alicdn.com/fonts/Raleway/Raleway-Medium.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Raleway Medium Italic';
+    src: url('//ubanner.alicdn.com/fonts/Raleway/Raleway-MediumItalic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Raleway Regular';
+    src: url('//ubanner.alicdn.com/fonts/Raleway/Raleway-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'Raleway SemiBold';
+    src: url('//ubanner.alicdn.com/fonts/Raleway/Raleway-SemiBold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'Raleway Thin';
+    src: url('//ubanner.alicdn.com/fonts/Raleway/Raleway-Thin.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+/* Roboto */
+
+@font-face {
+    font-family: 'Roboto Thin';
+    src: url('//ubanner.alicdn.com/fonts/Roboto/roboto-thin-webfont.eot');
+    src: url('//ubanner.alicdn.com/fonts/Roboto/roboto-thin-webfont.eot?#iefix') format('embedded-opentype'),
+    url('//ubanner.alicdn.com/fonts/Roboto/roboto-thin-webfont.woff2') format('woff2'),
+    url('//ubanner.alicdn.com/fonts/Roboto/roboto-thin-webfont.woff') format('woff'),
+    url('//ubanner.alicdn.com/fonts/Roboto/roboto-thin-webfont.ttf') format('truetype'),
+    url('//ubanner.alicdn.com/fonts/Roboto/roboto-thin-webfont.svg#roboto/robotothin') format('svg');
+    font-style: normal;
+    font-weight: 400;
+}
+
+
+
+
+@font-face {
+    font-family: 'Roboto Regular';
+    src: url('//ubanner.alicdn.com/fonts/Roboto/roboto-regular-webfont.eot');
+    src: url('//ubanner.alicdn.com/fonts/Roboto/roboto-regular-webfont.eot?#iefix') format('embedded-opentype'),
+    url('//ubanner.alicdn.com/fonts/Roboto/roboto-regular-webfont.woff2') format('woff2'),
+    url('//ubanner.alicdn.com/fonts/Roboto/roboto-regular-webfont.woff') format('woff'),
+    url('//ubanner.alicdn.com/fonts/Roboto/roboto-regular-webfont.ttf') format('truetype'),
+    url('//ubanner.alicdn.com/fonts/Roboto/roboto-regular-webfont.svg#roboto/robotoregular') format('svg');
+    font-weight: 400;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'Roboto';
+    src: url('//ubanner.alicdn.com/fonts/Roboto/roboto-regular-webfont.eot');
+    src: url('//ubanner.alicdn.com/fonts/Roboto/roboto-regular-webfont.eot?#iefix') format('embedded-opentype'),
+    url('//ubanner.alicdn.com/fonts/Roboto/roboto-regular-webfont.woff2') format('woff2'),
+    url('//ubanner.alicdn.com/fonts/Roboto/roboto-regular-webfont.woff') format('woff'),
+    url('//ubanner.alicdn.com/fonts/Roboto/roboto-regular-webfont.ttf') format('truetype'),
+    url('//ubanner.alicdn.com/fonts/Roboto/roboto-regular-webfont.svg#roboto/robotoregular') format('svg');
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'Roboto Italic';
+    src: url('//ubanner.alicdn.com/fonts/Roboto/roboto-italic-webfont.eot');
+    src: url('//ubanner.alicdn.com/fonts/Roboto/roboto-italic-webfont.eot?#iefix') format('embedded-opentype'),
+    url('//ubanner.alicdn.com/fonts/Roboto/roboto-italic-webfont.woff2') format('woff2'),
+    url('//ubanner.alicdn.com/fonts/Roboto/roboto-italic-webfont.woff') format('woff'),
+    url('//ubanner.alicdn.com/fonts/Roboto/roboto-italic-webfont.ttf') format('truetype'),
+    url('//ubanner.alicdn.com/fonts/Roboto/roboto-italic-webfont.svg#roboto/robotoitalic') format('svg');
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+
+
+@font-face {
+    font-family: 'Roboto Bold Italic';
+    src: url('//ubanner.alicdn.com/fonts/Roboto/roboto-bolditalic-webfont.eot');
+    src: url('//ubanner.alicdn.com/fonts/Roboto/roboto-bolditalic-webfont.eot?#iefix') format('embedded-opentype'),
+    url('//ubanner.alicdn.com/fonts/Roboto/roboto-bolditalic-webfont.woff2') format('woff2'),
+    url('//ubanner.alicdn.com/fonts/Roboto/roboto-bolditalic-webfont.woff') format('woff'),
+    url('//ubanner.alicdn.com/fonts/Roboto/roboto-bolditalic-webfont.ttf') format('truetype'),
+    url('//ubanner.alicdn.com/fonts/Roboto/roboto-bolditalic-webfont.svg#roboto/robotobold_italic') format('svg');
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+
+
+@font-face {
+    font-family: 'Roboto Bold';
+    src: url('//ubanner.alicdn.com/fonts/Roboto/roboto-bold-webfont.eot');
+    src: url('//ubanner.alicdn.com/fonts/Roboto/roboto-bold-webfont.eot?#iefix') format('embedded-opentype'),
+    url('//ubanner.alicdn.com/fonts/Roboto/roboto-bold-webfont.woff2') format('woff2'),
+    url('//ubanner.alicdn.com/fonts/Roboto/roboto-bold-webfont.woff') format('woff'),
+    url('//ubanner.alicdn.com/fonts/Roboto/roboto-bold-webfont.ttf') format('truetype'),
+    url('//ubanner.alicdn.com/fonts/Roboto/roboto-bold-webfont.svg#roboto/robotobold') format('svg');
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'Roboto Black';
+    src: url('//ubanner.alicdn.com/fonts/Roboto/Roboto-Black-webfont.eot');
+    src: url('//ubanner.alicdn.com/fonts/Roboto/Roboto-Black-webfont.eot?#iefix') format('embedded-opentype'),
+         url('//ubanner.alicdn.com/fonts/Roboto/Roboto-Black-webfont.woff2') format('woff2'),
+         url('//ubanner.alicdn.com/fonts/Roboto/Roboto-Black-webfont.woff') format('woff'),
+         url('//ubanner.alicdn.com/fonts/Roboto/Roboto-Black-webfont.ttf') format('truetype'),
+         url('//ubanner.alicdn.com/fonts/Roboto/Roboto-Black-webfont.svg#robotoblack') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'Roboto Black Italic';
+    src: url('//ubanner.alicdn.com/fonts/Roboto/Roboto-BlackItalic-webfont.eot');
+    src: url('//ubanner.alicdn.com/fonts/Roboto/Roboto-BlackItalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('//ubanner.alicdn.com/fonts/Roboto/Roboto-BlackItalic-webfont.woff2') format('woff2'),
+         url('//ubanner.alicdn.com/fonts/Roboto/Roboto-BlackItalic-webfont.woff') format('woff'),
+         url('//ubanner.alicdn.com/fonts/Roboto/Roboto-BlackItalic-webfont.ttf') format('truetype'),
+         url('//ubanner.alicdn.com/fonts/Roboto/Roboto-BlackItalic-webfont.svg#robotoblack_italic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'Roboto Bold Condensed';
+    src: url('//ubanner.alicdn.com/fonts/Roboto/Roboto-BoldCondensed-webfont.eot');
+    src: url('//ubanner.alicdn.com/fonts/Roboto/Roboto-BoldCondensed-webfont.eot?#iefix') format('embedded-opentype'),
+         url('//ubanner.alicdn.com/fonts/Roboto/Roboto-BoldCondensed-webfont.woff2') format('woff2'),
+         url('//ubanner.alicdn.com/fonts/Roboto/Roboto-BoldCondensed-webfont.woff') format('woff'),
+         url('//ubanner.alicdn.com/fonts/Roboto/Roboto-BoldCondensed-webfont.ttf') format('truetype'),
+         url('//ubanner.alicdn.com/fonts/Roboto/Roboto-BoldCondensed-webfont.svg#robotobold_condensed') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'Roboto Bold Condensed Italic';
+    src: url('//ubanner.alicdn.com/fonts/Roboto/Roboto-BoldCondensedItalic-webfont.eot');
+    src: url('//ubanner.alicdn.com/fonts/Roboto/Roboto-BoldCondensedItalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('//ubanner.alicdn.com/fonts/Roboto/Roboto-BoldCondensedItalic-webfont.woff2') format('woff2'),
+         url('//ubanner.alicdn.com/fonts/Roboto/Roboto-BoldCondensedItalic-webfont.woff') format('woff'),
+         url('//ubanner.alicdn.com/fonts/Roboto/Roboto-BoldCondensedItalic-webfont.ttf') format('truetype'),
+         url('//ubanner.alicdn.com/fonts/Roboto/Roboto-BoldCondensedItalic-webfont.svg#robotobold_condensed_italic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/* Generated by Font Squirrel (http://www.fontsquirrel.com) on March 1, 2015 */
+
+
+
+@font-face {
+    font-family: 'Roboto Medium';
+    src: url('//ubanner.alicdn.com/fonts/Roboto/Roboto-Medium-webfont.eot');
+    src: url('//ubanner.alicdn.com/fonts/Roboto/Roboto-Medium-webfont.eot?#iefix') format('embedded-opentype'),
+         url('//ubanner.alicdn.com/fonts/Roboto/Roboto-Medium-webfont.woff2') format('woff2'),
+         url('//ubanner.alicdn.com/fonts/Roboto/Roboto-Medium-webfont.woff') format('woff'),
+         url('//ubanner.alicdn.com/fonts/Roboto/Roboto-Medium-webfont.ttf') format('truetype'),
+         url('//ubanner.alicdn.com/fonts/Roboto/Roboto-Medium-webfont.svg#robotomedium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'Roboto Medium Italic';
+    src: url('//ubanner.alicdn.com/fonts/Roboto/Roboto-MediumItalic-webfont.eot');
+    src: url('//ubanner.alicdn.com/fonts/Roboto/Roboto-MediumItalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('//ubanner.alicdn.com/fonts/Roboto/Roboto-MediumItalic-webfont.woff2') format('woff2'),
+         url('//ubanner.alicdn.com/fonts/Roboto/Roboto-MediumItalic-webfont.woff') format('woff'),
+         url('//ubanner.alicdn.com/fonts/Roboto/Roboto-MediumItalic-webfont.ttf') format('truetype'),
+         url('//ubanner.alicdn.com/fonts/Roboto/Roboto-MediumItalic-webfont.svg#robotomedium_italic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'Roboto Thin Italic';
+    src: url('//ubanner.alicdn.com/fonts/Roboto/Roboto-ThinItalic-webfont.eot');
+    src: url('//ubanner.alicdn.com/fonts/Roboto/Roboto-ThinItalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('//ubanner.alicdn.com/fonts/Roboto/Roboto-ThinItalic-webfont.woff2') format('woff2'),
+         url('//ubanner.alicdn.com/fonts/Roboto/Roboto-ThinItalic-webfont.woff') format('woff'),
+         url('//ubanner.alicdn.com/fonts/Roboto/Roboto-ThinItalic-webfont.ttf') format('truetype'),
+         url('//ubanner.alicdn.com/fonts/Roboto/Roboto-ThinItalic-webfont.svg#robotothin_italic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/* Generated by Font Squirrel (http://www.fontsquirrel.com) on March 1, 2015 */
+
+
+
+@font-face {
+    font-family: 'Roboto Condensed';
+    src: url('//ubanner.alicdn.com/fonts/Roboto/Roboto-Condensed-webfont.eot');
+    src: url('//ubanner.alicdn.com/fonts/Roboto/Roboto-Condensed-webfont.eot?#iefix') format('embedded-opentype'),
+         url('//ubanner.alicdn.com/fonts/Roboto/Roboto-Condensed-webfont.woff2') format('woff2'),
+         url('//ubanner.alicdn.com/fonts/Roboto/Roboto-Condensed-webfont.woff') format('woff'),
+         url('//ubanner.alicdn.com/fonts/Roboto/Roboto-Condensed-webfont.ttf') format('truetype'),
+         url('//ubanner.alicdn.com/fonts/Roboto/Roboto-Condensed-webfont.svg#robotocondensed') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'Roboto Condensed Italic';
+    src: url('//ubanner.alicdn.com/fonts/Roboto/Roboto-CondensedItalic-webfont.eot');
+    src: url('//ubanner.alicdn.com/fonts/Roboto/Roboto-CondensedItalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('//ubanner.alicdn.com/fonts/Roboto/Roboto-CondensedItalic-webfont.woff2') format('woff2'),
+         url('//ubanner.alicdn.com/fonts/Roboto/Roboto-CondensedItalic-webfont.woff') format('woff'),
+         url('//ubanner.alicdn.com/fonts/Roboto/Roboto-CondensedItalic-webfont.ttf') format('truetype'),
+         url('//ubanner.alicdn.com/fonts/Roboto/Roboto-CondensedItalic-webfont.svg#robotocondensed_italic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+@font-face {
+    font-family: 'Roboto Light';
+    src: url('//ubanner.alicdn.com/fonts/Roboto/Roboto-Light-webfont.eot');
+    src: url('//ubanner.alicdn.com/fonts/Roboto/Roboto-Light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('//ubanner.alicdn.com/fonts/Roboto/Roboto-Light-webfont.woff2') format('woff2'),
+         url('//ubanner.alicdn.com/fonts/Roboto/Roboto-Light-webfont.woff') format('woff'),
+         url('//ubanner.alicdn.com/fonts/Roboto/Roboto-Light-webfont.ttf') format('truetype'),
+         url('//ubanner.alicdn.com/fonts/Roboto/Roboto-Light-webfont.svg#robotolight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'Roboto Light Italic';
+    src: url('//ubanner.alicdn.com/fonts/Roboto/Roboto-LightItalic-webfont.eot');
+    src: url('//ubanner.alicdn.com/fonts/Roboto/Roboto-LightItalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('//ubanner.alicdn.com/fonts/Roboto/Roboto-LightItalic-webfont.woff2') format('woff2'),
+         url('//ubanner.alicdn.com/fonts/Roboto/Roboto-LightItalic-webfont.woff') format('woff'),
+         url('//ubanner.alicdn.com/fonts/Roboto/Roboto-LightItalic-webfont.ttf') format('truetype'),
+         url('//ubanner.alicdn.com/fonts/Roboto/Roboto-LightItalic-webfont.svg#robotolight_italic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+/* 方正正大黑简体 */
+
+@font-face {
+    font-family: 'FZZDHJW--GB1-0';
+    src: url('//ubanner.alicdn.com/fonts/FZZDHJW--GB1-0/FZZDHJW--GB1-0.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+/* 方正兰亭黑 */
+
+@font-face {
+    font-family: 'FZLTHK--GBK1-0';
+    src: url('//ubanner.alicdn.com/fonts/FZLTHK--GBK1-0/FZLTHK--GBK1-0.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* 方正兰亭中黑 */
+
+@font-face {
+    font-family: 'FZLTZHK--GBK1-0';
+    src: url('//ubanner.alicdn.com/fonts/FZLTZHK--GBK1-0/FZLTZHK--GBK1-0.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+/* 方正兰亭大黑 */
+
+@font-face {
+    font-family: 'FZLTDHK--GBK1-0';
+    src: url('//ubanner.alicdn.com/fonts/FZLTDHK--GBK1-0/FZLTDHK--GBK1-0.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+/* 方正兰亭特黑 */
+
+@font-face {
+    font-family: 'FZLTTHK--GBK1-0';
+    src: url('//ubanner.alicdn.com/fonts/FZLTTHK--GBK1-0/FZLTTHK--GBK1-0.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+/* 方正榜书楷简体 */
+
+@font-face {
+    font-family: 'FZBANGSHUKAIJW--GB1-0';
+    src: url('//ubanner.alicdn.com/fonts/FZBangSKJW--GB1-0/FZBangSKJW--GB1-0.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+/* 方正北魏楷书简体 */
+
+@font-face {
+    font-family: 'FZBWKSJW--GB1-0';
+    src: url('//ubanner.alicdn.com/fonts/FZBWKSJW--GB1-0/FZBWKSJW--GB1-0.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+/* 方正风雅宋简体 */
+
+@font-face {
+    font-family: 'FZFYSJW--GB1-0';
+    src: url('//ubanner.alicdn.com/fonts/FZFYSJW--GB1-0/FZFYSJW--GB1-0.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+/* 方正兰亭圆简体 */
+
+@font-face {
+    font-family: 'FZLTYJW--GB1-0';
+    src: url('//ubanner.alicdn.com/fonts/FZLTYJW--GB1-0/FZLTYJW--GB1-0.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+/* 方正兰亭圆简体_中 */
+
+@font-face {
+    font-family: 'FZLTYZJW--GB1-0';
+    src: url('//ubanner.alicdn.com/fonts/FZLTYZJW--GB1-0/FZLTYZJW--GB1-0.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+/* 方正兰亭圆简体_大 */
+
+@font-face {
+    font-family: 'FZLTYDJW--GB1-0';
+    src: url('//ubanner.alicdn.com/fonts/FZLTYDJW--GB1-0/FZLTYDJW--GB1-0.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}

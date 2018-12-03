@@ -1,0 +1,54 @@
+$COMMON_H: 60px;
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 999;
+  width: 100%;
+  height: $COMMON_H;
+  line-height: $COMMON_H;
+  background: #222222;
+  box-shadow: 0 1px 3px 0 #222222;
+}
+
+header .ubanner-header {
+  position: relative;
+  width: calc(100% - 72px);
+  height: 100%;
+  margin: 0 auto;
+  clear: both;
+  overflow: hidden;
+}
+
+.ubanner-header .header-logo {
+  position: relative;
+  display: inline-block;
+  float: left;
+  width: 170px;
+  height: 100%;
+
+  .logo-thumb {position: absolute;top: 12px;width: 36px;height: 36px;}
+  .logo-title {color: #fff;font-size: 22px;margin-left: 46px;}
+}
+
+
+.ubanner-header .header-content {
+  position: relative;
+  height: 100%;
+  margin-left: 170px;
+
+  .content-nav {position: relative;height: 100%;margin-right: 300px;text-align: center;}
+  .content-nav .next-nav.next-hoz {line-height: 60px;}
+  .content-other {position: relative;display: inline-block;float: right;width: 300px;height: 100%;font-size: 24px;cursor: pointer;color: rgba(255,255,255, 0.5);}
+  .content-other .create {font-size: 14px;border-radius: 18px;top: -2px;}
+  .content-other .avatar {
+    margin-top: -3px;
+    width: 32px;
+    height: 32px;
+    display: inline-block;
+    vertical-align: middle;
+    img {border-radius: 100%;vertical-align: top;}
+  }
+  .content-other .spacing {margin: 0 24px;}
+}
